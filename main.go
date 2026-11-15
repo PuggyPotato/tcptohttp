@@ -52,6 +52,6 @@ func main() {
 
 	lines := getLinesChannel(f)
 	for line := range lines {
-		fmt.Printf("%s\n", line)
+		fmt.Printf("read: %s\n", line)
 	}
 }
